@@ -1,6 +1,10 @@
 # 📸 Insta API
 
-Este é um projeto de API simples, desenvolvido com Node.js e Express, que permite gerenciar postagens de imagens com descrições geradas automaticamente por IA. Ele foi criado como um exercício de aprendizado e inclui integração com MongoDB para armazenar dados e com o serviço Gemini para gerar descrições de imagens.
+Este é um projeto de API simples, desenvolvido com Node.js e Express, que
+permite gerenciar postagens de imagens com descrições geradas automaticamente
+por IA. Ele foi criado como um exercício de aprendizado e inclui integração com
+MongoDB para armazenar dados e com o serviço Gemini para gerar descrições de
+imagens.
 
 ---
 
@@ -18,25 +22,10 @@ Este é um projeto de API simples, desenvolvido com Node.js e Express, que permi
 
 ## 📝 Funcionalidades
 
-- **Listar Postagens**: Retorna todas as postagens armazenadas no banco de dados.
+- **Listar Postagens**: Retorna todas as postagens armazenadas no banco de
+  dados.
 - **Criar Postagem**: Adiciona uma nova postagem ao banco de dados.
-- **Fazer Upload de Imagem**: Permite fazer upload de uma imagem e associá-la a uma postagem.
-- **Atualizar Postagem**: Atualiza uma postagem existente com uma imagem e uma descrição gerada pela IA.
-
----
-
-## 🚀 Como Executar Localmente
-
-### Pré-requisitos
-
-- Node.js (versão 14.0 ou superior)
-- NPM ou Yarn
-- MongoDB configurado localmente ou um cluster no MongoDB Atlas
-
-### Passos
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/Wagnetto/nodejs-api.git
-   cd nodejs-api
+- **Fazer Upload de Imagem**: Permite fazer upload de uma imagem e associá-la a
+  uma postagem.
+- **Atualizar Postagem**: Atualiza uma postagem existente com uma imagem e uma
+  descrição gerada pela IA.
